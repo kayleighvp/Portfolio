@@ -385,6 +385,8 @@ nav .fa-solid{
     .div1{
         padding-top: 0;
         text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .layer{
         height: 100%;
@@ -402,15 +404,20 @@ nav .fa-solid{
         font-size:20px;
         display: grid;
         grid-template-areas:
-        'div1 div1 div2';
+        'div1 div2';
          grid-gap: 40px; 
     }
     .header-text h1{
         font-size: 44px;
         margin-top: 8px;
+        text-align: left;
     }
     .div1{
-        padding-top: 50%;
+        padding-top: 30%;
+        padding-right: 20%;
+    }
+    .div1 p{
+        text-align: left;
     }
 }
 @media screen and (min-width: 1600px) {
@@ -426,7 +433,8 @@ nav .fa-solid{
         padding: 10px 20%;
     }
     .div1{
-        padding-top: 40%;
+        padding-top: 20%;
+        padding-right: 20%;
     }
 }
 
