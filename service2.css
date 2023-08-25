@@ -198,6 +198,9 @@ form .btn2{
         .sub-title{
             font-size: 25px;
         }
+        h1{
+            font-size: 25px;
+        }
         .textblock{
             padding: 30px 40px;
         }
@@ -208,7 +211,7 @@ form .btn2{
             flex-basis: 100%;
         }
         #intro p{
-            font-size: 12px;
+            font-size: 14px;
         }
 }
 @media screen and (min-width: 651px) {

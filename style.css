@@ -388,18 +388,11 @@ nav .fa-solid{
         padding-left: 10%;
         padding-right: 10%;
     }
-    .layer{
-        height: 100%;
-        background: linear-gradient(rgba(0,0,0,0.4), #DD8B66);
-    }
     .work-list{
         grid-template-columns: minmax(500px);
     }
 }
 @media screen and (min-width: 1200px) {
-    .layer{
-        height: 0;
-    }
     .header-text{
         font-size:22px;
         display: grid;
