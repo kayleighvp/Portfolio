@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isometrische Design </title>
+    <link rel="stylesheet" href="service2.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1c8cd8c7b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about">Over mij</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div>
+                <a href="index.html" class="btn">Terug</a>
+            </div>  
+        </div>
+    </div>
+    
+    <div id="intro">
+        <div class="container">
+            <div class="textblock"> 
+            <div class="header-text">
+                <h1> <i class="fa-solid fa-cube"></i> Isometrisch Design</h1>
+            </div>  
+                <p>Tijdens mijn CMD-opleiding heb ik bij de minor Visual Design & Front-end Development sprints van vijf weken gevolgd waar ik mij kon verdiepen in design of development. Ik heb hiervoor gekozen om mijn illustratie vaardigheden te vergroten en isometrisch illustreren te leren.</p>
+                <p>In één van deze sprints heb ik isometrisch illustreren cursussen gevolgd. Na deze cursussen gaf ik mijzelf de uitdaging bekende gebouwen isometrische te illustreren. Als eindresultaat heb ik architectuur uit de steden Londen, Parijs, New York en Rome geïllustreerd, zie onderstaande uitwerkingen.</p>
+                <p>Deze vorm van illustreren kan ik toepassen bij web/app interfaces voor klanten om meer dimensie te geven aan deze digitale producten.</p>
+            </div>
+        </div>
+    <div id="uitwerkingen">
+        <div class="container">
+                <h1 class="sub-title">Mijn Designs</h1> 
+            <div class="designs-lijst">
+            <div class="design">
+                <img src="images/london-iso.png" alt="design1">  
+            </div>
+            <div class="design">
+                <img src="images/paris-iso.png" alt="design1">  
+            </div>
+            <div class="design">
+                <img src="images/new-york-iso.png" alt="design1">  
+            </div>
+            <div class="design">
+                <img src="images/rome-iso.png" alt="design1">  
+            </div>
+            </div>
+        </div>
+    </div>
+     <!------------Contact-------->
+ <div id="contact">
+    <div class="header">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Neem contact op</h1>
+                <p><a href="mailto:kayleighvp@live.nl"><i class="fa-solid fa-paper-plane"></i>kayleighvp@live.nl</a></p>
+                <p><a href="https://www.linkedin.com/in/kayleigh-van-peperstraten-873888203/"><i class="fa-brands fa-linkedin"></i> Kayleigh van Peperstraten</a></p>
+                <a href="images/my-cv.pdf" download class="btn btn2">CV Downloaden</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://public.herotofu.com/v1/c3efbe20-3a8e-11ee-aa48-0d756f031946" method="post" accept-charset="UTF-8">
+                    <input type="text" name="naam" placeholder="Je naam" required>
+                    <input type="email" name="email" placeholder="Je e-mailadres" required>
+                    <textarea name="bericht" rows="6" placeholder="Je bericht"></textarea>
+                    <button type="submit" value="Download CTA" class="btn btn2">Verzenden</button>
+                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Kayleigh van Peperstraten 2023</p>
+    </div>
+</div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+     
+        function openmenu(){
+             sidemenu.style.right = "0";
+        }
+        function closemenu(){
+             sidemenu.style.right = "-200px";
+        }
+     </script> 
+</body>
+</html>

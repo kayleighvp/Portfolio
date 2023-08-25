@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayleigh Portfolio Website </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1c8cd8c7b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="header-text">
+            <div class="div1">
+                <h1>Hey, ik ben Kayleigh!</h1>
+                <p>Een <strong>Junior UI/UX designer</strong> die graag doordachte<br> en mooie ontwerpervaringen maakt voor mensen.</p>
+            </div>
+            <div class="div2">
+                <img src="images/background.png" alt="opening-afbeelding">
+            </div>
+    </div>
+</div>
+<!------------OverMij-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="gebruiker">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Over mij</h1>
+                <p>Leuk je te ontmoeten! Mijn naam is Kayleigh van Peperstraten,
+                    22 jaar en ik heb net mijn studie Communicatie & Multimedia Design (CMD) afgerond. 
+                    Ik ben gepassioneerd over het verbeteren van het leven van anderen door middel van design. 
+                    De digitale wereld groeit en evolueert snel en ik leer daardoor constant nieuwe dingen. 
+                    Zelf vind ik het ook belangrijk om bij te blijven met de stroom van nieuwe ontwikkelingen 
+                    en dit te gebruiken om de beste ervaring via mijn ontwerpen op te leveren voor anderen.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Vaardigheden</p>
+                <p class="tab-links" onclick="opentab('experience')">Ervaring</p>
+                <p class="tab-links" onclick="opentab('education')">Educatie</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Onderzoeken</span><br>Desk/field onderzoek en testen met echte gebruikers.</li>
+                    <li><span>Ontwerpen</span><br>Wireframing, prototypes en design systemen voor web/app interfaces.</li>
+                    <li><span>Illustreren</span><br>Iconen, logo's, karakters en isometrische designs.</li>
+                    <li><span>Animeren</span><br>Smart animeren van prototypes in Figma/Xd/Invision en karakter animaties in After Effects.</li>
+                </ul> 
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Feb. 2023 - jun. 2023</span><br>UI/UX Stagiare bij Upper Marketing.</li>
+                    <li><span>Jan. 2021 - feb. 2023</span><br>Parttime huiswerkbegeleider bij Winford Rotterdam.</li>
+                    <li><span>Aug. 2021 - jan. 2022</span><br>UI/UX Stagiare bij The Dare Company.</li>
+                    <li><span>Jan. 2021 - mrt. 2021</span><br>UI/UX opdracht uitgevoerd voor Gemeente Den Haag.</li>
+                </ul>    
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Aug. 2019 - jul. 2023</span><br>Bachelor's degree, Communation and Multimedia Design.</li>
+                    <li><span>Feb. 2022</span><br>After Effects Character Animation Essential cursus voltooid.</li>
+                    <li><span>Feb. 2022</span><br>After Effects Essential cursus voltooid.</li>
+                    <li><span>Mei. 2020</span><br>Invision Essential cursus voltooid.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mijn Expertise</h1> 
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h2>UI/UX Design</h2>
+            <p> Ik ben een UI/UX-ontwerper met een diploma in Communicatie en Multimedia Design. 
+                Gedurende mijn studie heb ik me gericht op principes van gebruikersgericht ontwerp en hands-on ervaring opgedaan in verschillende aspecten van het ontwerpproces.</p>
+           <a href="service-ui-design.html">Lees meer</a>
+            </div> 
+            <div>
+                <i class="fa-solid fa-cube"></i>
+                <h2>Isometrisch Design</h2>
+                <p> Tijdens mijn CMD-opleiding heb ik bij de minor Visual Design & Front-end Development sprints van vijf weken gevolgd waar ik mij kon verdiepen in design of development.
+                    Ik heb hiervoor gekozen om mijn illustratie vaardigheden te vergroten en isometrisch illustreren te leren. </p>
+               <a href="service-isometrisch-design.html">Lees meer</a>
+            </div> 
+            <div>
+                <i class="fa-solid fa-bezier-curve"></i>
+                <h2>Illustraties & Animaties</h2>
+                <p> Voor en tijdens mijn studie heb ik gewerkt met het programma Illustrator. Mijn passie ligt vooral bij het illustreren van karakters en zijn mijn vaardigheden hierin vergroot door te leren animeren. 
+                    Tijdens mijn CMD-opleiding heb ik de minor Animation gevolgd en daarnaast zelf ook After Effects certificaten behaald via LinkedIn Learning cursussen.</p>
+               <a href="service-animatie.html">Lees meer</a>
+            </div> 
+        </div>
+    </div>
+</div>
+<!------------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mijn werk</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="project1">
+                <div class="layer">
+                    <h3>Dementie Duaal App</h3>
+                    <p>Een App voor mantelzorgers waar je van elkaar leert en je hart kan luchten.</p>
+                <a href="dedu-pagina.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="project1">
+                <div class="layer">
+                    <h3>Cliëntenportaal</h3>
+                    <p>Het portaal waar er voor elke cliënt van Beschermd wonen gepersonaliseerde hulp wordt aangeboden.</p>
+                <a href="portaal.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" a href>
+                <img src="images/work-3.png" alt="project1">
+                <div class="layer">
+                    <h3>Mimic - Spaar en Recycle Campagne</h3>
+                    <p>Een campagne om klanten te motiveren herhaalbestellingen te plaatsen van de Mimic babyvoeding cups.</p>
+                <a href="mimic.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="portfolio.html" class="btn">Bekijk meer</a>
+    </div>
+</div>
+<!------------Contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Neem contact op</h1>
+                <p><a href="mailto:kayleighvp@live.nl"><i class="fa-solid fa-paper-plane"></i>kayleighvp@live.nl</a></p>
+                <p><a href="https://www.linkedin.com/in/kayleigh-van-peperstraten-873888203/"><i class="fa-brands fa-linkedin"></i> Kayleigh van Peperstraten</a></p>
+                <a href="images/my-cv.pdf" download class="btn btn2">CV Downloaden</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://public.herotofu.com/v1/c3efbe20-3a8e-11ee-aa48-0d756f031946" method="post" accept-charset="UTF-8">
+                    <input type="text" name="naam" placeholder="Je naam" required>
+                    <input type="email" name="email" placeholder="Je e-mailadres" required>
+                    <textarea name="bericht" rows="6" placeholder="Je bericht"></textarea>
+                    <button type="submit" value="Download CTA" class="btn btn2">Verzenden</button>
+                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Kayleigh van Peperstraten 2023</p>
+    </div>
+</div>
+<script>
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+ 
+ function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ }
+</script>
+<script>
+   
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+        sidemenu.style.right = "0";
+   }
+   function closemenu(){
+        sidemenu.style.right = "-200px";
+   }
+</script>
+</body>
+</html>

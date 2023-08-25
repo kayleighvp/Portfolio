@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Design </title>
+    <link rel="stylesheet" href="service1.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1c8cd8c7b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about">Over mij</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div>
+                <a href="index.html" class="btn">Terug</a>
+            </div>  
+        </div>
+    </div>
+
+    <div id="intro">
+        <div class="container">
+            <div class="textblock"> 
+            <div class="header-text">
+                <h1> <i class="fa-solid fa-pen-ruler"></i> UI/UX Design</h1>
+            </div>  
+                <p>Ik ben een UI/UX-ontwerper met een diploma in Communicatie en Multimedia Design. Gedurende mijn studie heb ik me gericht op principes van gebruikersgericht ontwerp en hands-on ervaring opgedaan in verschillende aspecten van het ontwerpproces.</p>
+                <p>Ik heb succesvol bureau-, veld- en gebruikersonderzoek uitgevoerd en inzichten vertaald naar innovatieve ontwerpprojecten. Of ik nu individueel werk of in teams, ik heb gedetailleerde prototypes geleverd die zowel aan de behoeften van de gebruikers als aan de doelen van de klant voldoen.
+                    Met vaardigheid in Figma, Adobe XD, InVision en Sketch creëer ik interactieve prototypes om gebruikersstromen effectief te visualiseren. Ik beheers ook samenwerkingstools zoals Miro voor groepsbrainstormsessies en het organiseren van gegevens.</p>
+                <p>Ik kijk ernaar uit om mijn vaardigheden toe te passen en bij te dragen aan het ontwerpen van digitale oplossingen die gebruikerstevredenheid vooropstellen en de kloof tussen technologie en menselijke interactie overbruggen.</p>
+            </div>
+        </div>
+    </div>
+<!------------UI/UX Projecten-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mijn UI/UX projecten</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="project1">
+                <div class="layer">
+                    <h3>Dementie Duaal App</h3>
+                    <p>Een App voor mantelzorgers waar je van elkaar leert en je hart kan luchten.</p>
+                <a href="dedu-pagina.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="project1">
+                <div class="layer">
+                    <h3>Cliëntenportaal</h3>
+                    <p>Het portaal waar er voor elke cliënt van Beschermd wonen gepersonaliseerde hulp wordt aangeboden.</p>
+                <a href="portaal.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="project1">
+                <div class="layer">
+                    <h3>Mimic - Spaar en Recycle Campagne</h3>
+                    <p>Een campagne om klanten te motiveren herhaalbestellingen te plaatsen van de Mimic babyvoeding cups.</p>
+                <a href="mimic.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!------------Contact-------->
+ <div id="contact">
+    <div class="header">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Neem contact op</h1>
+                <p><a href="mailto:kayleighvp@live.nl"><i class="fa-solid fa-paper-plane"></i>kayleighvp@live.nl</a></p>
+                <p><a href="https://www.linkedin.com/in/kayleigh-van-peperstraten-873888203/"><i class="fa-brands fa-linkedin"></i> Kayleigh van Peperstraten</a></p>
+                <a href="images/my-cv.pdf" download class="btn btn2">CV Downloaden</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://public.herotofu.com/v1/c3efbe20-3a8e-11ee-aa48-0d756f031946" method="post" accept-charset="UTF-8">
+                    <input type="text" name="naam" placeholder="Je naam" required>
+                    <input type="email" name="email" placeholder="Je e-mailadres" required>
+                    <textarea name="bericht" rows="6" placeholder="Je bericht"></textarea>
+                    <button type="submit" value="Download CTA" class="btn btn2">Verzenden</button>
+                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Kayleigh van Peperstraten 2023</p>
+    </div>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+ 
+    function openmenu(){
+         sidemenu.style.right = "0";
+    }
+    function closemenu(){
+         sidemenu.style.right = "-200px";
+    }
+ </script>
+</body>
+</html>

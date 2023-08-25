@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>illustraties met animaties </title>
+    <link rel="stylesheet" href="service3.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1c8cd8c7b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html#header">Home</a></li>
+                    <li><a href="index.html#about">Over mij</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div>
+                <a href="index.html" class="btn">Terug</a>
+            </div>  
+        </div>
+    </div>
+    <div id="intro">
+        <div class="container">
+            <div class="textblock"> 
+            <div class="header-text">
+                <h1> <i class="fa-solid fa-bezier-curve"></i> Illustraties & animaties</h1>
+            </div>  
+                <p>Voor en tijdens mijn studie heb ik gewerkt met het programma Illustrator. Mijn passie ligt vooral bij het illustreren van karakters en zijn mijn vaardigheden hierin vergroot door te leren animeren in het programma After Effects. Tijdens mijn CMD-opleiding heb ik de minor Animation gevolgd en daarnaast zelf ook After Effects certificaten behaald via LinkedIn Learning cursussen. Naast het leren animeren van karakters heb ik ook geleerd effecten, overgangen en tekst te animeren. Benieuwd naar mijn werk bekijk dan onderstaande video's</p>
+            </div>
+        </div>
+    </div>
+    <div id="projecten">
+        <div class="container2">
+            <div class="div1">
+                <h1 class="sub-title">Mijn animaties</h1> 
+            </div>
+            <div class="div3">
+                    <p>Tijdens de minor heb ik mij verdiept in Character Animation. Met de kennis vanuit After Effects heb ik mij eerst gefocust op de bewegingen die een mens maakt. Om hier vaardig in te worden zijn vanuit een zelfontworpen karakter verschillende sportbewegingen geanimeerd. Als eindwerk vanuit deze animaties is een template opgeleverd.Bekijk de preview video om het eindwerk te zien.</p>
+                    <br>
+                    <iframe width="100%" height="351" src="https://www.youtube.com/embed/1ovU7xoWFak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="div2">
+                    <p> Hierna heb ik in groepsverband een gezamelijk portfolio website gemaakt waar we als creatief element de bezoekers een escape room laten doorlopen. Met deze opdracht heb ik de illustraties opgeleverd, de animaties met mijn team uitgedacht en verwerkt in de website. De webflow website is op dit moment niet te bereiken. Bekijk de preview video van de escape room video om het interactieve spel te zien.</p>
+                    <br>
+                    <iframe width="100%" height="351" src="https://www.youtube.com/embed/BlhAmQSlEvc?si=T2iKK_prnvypCZ6t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+     <!------------Contact-------->
+ <div id="contact">
+    <div class="header">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Neem contact op</h1>
+                <p><a href="mailto:kayleighvp@live.nl"><i class="fa-solid fa-paper-plane"></i>kayleighvp@live.nl</a></p>
+                <p><a href="https://www.linkedin.com/in/kayleigh-van-peperstraten-873888203/"><i class="fa-brands fa-linkedin"></i> Kayleigh van Peperstraten</a></p>
+                <a href="images/my-cv.pdf" download class="btn btn2">CV Downloaden</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://public.herotofu.com/v1/c3efbe20-3a8e-11ee-aa48-0d756f031946" method="post" accept-charset="UTF-8">
+                    <input type="text" name="naam" placeholder="Je naam" required>
+                    <input type="email" name="email" placeholder="Je e-mailadres" required>
+                    <textarea name="bericht" rows="6" placeholder="Je bericht"></textarea>
+                    <button type="submit" value="Download CTA" class="btn btn2">Verzenden</button>
+                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Kayleigh van Peperstraten 2023</p>
+    </div>
+</div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+     
+        function openmenu(){
+             sidemenu.style.right = "0";
+        }
+        function closemenu(){
+             sidemenu.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>
