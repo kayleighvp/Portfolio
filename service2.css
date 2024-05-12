@@ -221,6 +221,9 @@ form .btn2{
     .sub-title{
         font-size: 25px;
     }
+    .design img{
+        width:80%;
+    }
 }
 @media screen and (min-width: 1200px) {
     .sub-title{
