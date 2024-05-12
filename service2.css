@@ -89,7 +89,7 @@ h1{
 }
 .designs-lijst{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -213,22 +213,10 @@ form .btn2{
         #intro p{
             font-size: 14px;
         }
-    .design img{
-        width:95%;
-    }
-    .sub-title{
-        width:95%;
-    }
 }
 @media screen and (min-width: 651px) {
     .sub-title{
         font-size: 25px;
-    }
-     .design img{
-        width:95%;
-    }
-    .sub-title{
-        width:95%;
     }
 }
 @media screen and (min-width: 1200px) {
