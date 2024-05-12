@@ -214,7 +214,7 @@ form .btn2{
             font-size: 14px;
         }
     .design img{
-        width:80%;
+        width:90%;
     }
 }
 @media screen and (min-width: 651px) {
@@ -222,7 +222,7 @@ form .btn2{
         font-size: 25px;
     }
     .design img{
-        width:80%;
+        width:90%;
     }
 }
 @media screen and (min-width: 1200px) {
